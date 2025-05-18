@@ -29,19 +29,19 @@ A VB.NET + SQL Server-based system for transparent and efficient ration card man
 
 | Welcome Screen | Admin Login | Admin Dashboard |
 |----------------|-------------|------------------|
-| ![](screenshots/welcome-screen.png) | ![](screenshots/admin-login.png) | ![](screenshots/admin-dashboard.png) |
+| ![](screenshots/welcome-screen.png.png) | ![](screenshots/admin-login.png.png) | ![](screenshots/admin-dashboard.png.png) |
 
 | User Login | User Dashboard | User Management |
 |------------|----------------|------------------|
-| ![](screenshots/user-login.png) | ![](screenshots/user-home.png) | ![](screenshots/user-management.png) |
+| ![](screenshots/user-login.png.png) | ![](screenshots/user-home.png.png) | ![](screenshots/user-management.png.png) |
 
 | Ration Allotment | Price List | Purchase History |
 |------------------|------------|------------------|
-| ![](screenshots/ration-allotment.png) | ![](screenshots/price-list.png) | ![](screenshots/purchase-history.png) |
+| ![](screenshots/ration-allotment.png.png) | ![](screenshots/price-list.png.png) | ![](screenshots/purchase-history.png.png) |
 
 | Allotment Confirmation | Exit Screen |
 |------------------------|--------------|
-| ![](screenshots/allocation-confirmation.png) | ![](screenshots/exit-screen.png) |
+| ![](screenshots/allocation-confirmation.png.png) | ![](screenshots/exit-screen.png.png) |
 
 
 ## 💾 How to Run
