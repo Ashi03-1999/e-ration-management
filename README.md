@@ -25,9 +25,24 @@ A VB.NET + SQL Server-based system for transparent and efficient ration card man
 
 ## 📸 Screenshots
 
-| Login Page | Home Page | Price List |
-|------------|-----------|------------|
-| ![](screenshots/admin-login.png) | ![](screenshots/user-home.png) | ![](screenshots/price-list.png) |
+## 📸 Screenshots
+
+| Welcome Screen | Admin Login | Admin Dashboard |
+|----------------|-------------|------------------|
+| ![](screenshots/welcome-screen.png) | ![](screenshots/admin-login.png) | ![](screenshots/admin-dashboard.png) |
+
+| User Login | User Dashboard | User Management |
+|------------|----------------|------------------|
+| ![](screenshots/user-login.png) | ![](screenshots/user-home.png) | ![](screenshots/user-management.png) |
+
+| Ration Allotment | Price List | Purchase History |
+|------------------|------------|------------------|
+| ![](screenshots/ration-allotment.png) | ![](screenshots/price-list.png) | ![](screenshots/purchase-history.png) |
+
+| Allotment Confirmation | Exit Screen |
+|------------------------|--------------|
+| ![](screenshots/allocation-confirmation.png) | ![](screenshots/exit-screen.png) |
+
 
 ## 💾 How to Run
 
