@@ -37,7 +37,8 @@ A VB.NET + SQL Server-based system for transparent and efficient ration card man
 
 ## 📄 Documentation
 
-- [📘 Full Project Report (PDF)](docs/Project_Report.pdf)
+- [Project Report (PDF)](docs/Project_Report.pdf)
+
 - [🧾 Database Schema (SQL)](database/schema.sql)
 
 ## 👤 Admin Credentials
