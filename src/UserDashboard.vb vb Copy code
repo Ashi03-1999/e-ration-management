@@ -1,0 +1,13 @@
+Public Class UserDashboard
+    Private Sub btnPurchase_Click(sender As Object, e As EventArgs) Handles btnPurchase.Click
+        PurchaseRation.Show()
+    End Sub
+
+    Private Sub btnHistory_Click(sender As Object, e As EventArgs) Handles btnHistory.Click
+        PurchaseHistory.Show()
+    End Sub
+    
+    Private Sub btnPriceList_Click(sender As Object, e As EventArgs) Handles btnPriceList.Click
+        PriceList.Show()
+    End Sub
+End Class

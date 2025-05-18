@@ -1,0 +1,17 @@
+Imports System.Data.SqlClient
+
+Public Class RationAllotment
+    Dim con As New SqlConnection("Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\RationDataBase.mdf;Integrated Security=True;User Instance=True")
+
+    Private Sub btnAllot_Click(sender As Object, e As EventArgs) Handles btnAllot.Click
+        con.Open()
+        Dim cmd As New SqlCommand("INSERT INTO RationAllotmentTbl (RationCardNo, CardType, Items, AllotDate) VALUES (@rc, @ct, @i, @d)", con)
+        cmd.Parameters.AddWithValue("@rc", txtCardNo.Text)
+        cmd.Parameters.AddWithValue("@ct", cmbCardType.Text)
+        cmd.Parameters.AddWithValue("@i", txtItems.Text)
+        cmd.Parameters.AddWithValue("@d", dtpDate.Value)
+        cmd.ExecuteNonQuery()
+        MsgBox("Ration Allotted", MsgBoxStyle.Information)
+        con.Close()
+    End Sub
+End Class
