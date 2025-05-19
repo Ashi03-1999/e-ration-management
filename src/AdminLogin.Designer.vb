@@ -1,0 +1,51 @@
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class AdminLogin
+    Inherits System.Windows.Forms.Form
+
+    Private Sub InitializeComponent()
+        Me.txtUsername = New System.Windows.Forms.TextBox()
+        Me.txtPassword = New System.Windows.Forms.TextBox()
+        Me.btnLogin = New System.Windows.Forms.Button()
+        Me.SuspendLayout()
+        '
+        'txtUsername
+        '
+        Me.txtUsername.Location = New System.Drawing.Point(100, 40)
+        Me.txtUsername.Name = "txtUsername"
+        Me.txtUsername.Size = New System.Drawing.Size(180, 20)
+        Me.txtUsername.TabIndex = 0
+        '
+        'txtPassword
+        '
+        Me.txtPassword.Location = New System.Drawing.Point(100, 80)
+        Me.txtPassword.Name = "txtPassword"
+        Me.txtPassword.PasswordChar = "*"c
+        Me.txtPassword.Size = New System.Drawing.Size(180, 20)
+        Me.txtPassword.TabIndex = 1
+        '
+        'btnLogin
+        '
+        Me.btnLogin.Location = New System.Drawing.Point(130, 120)
+        Me.btnLogin.Name = "btnLogin"
+        Me.btnLogin.Size = New System.Drawing.Size(100, 30)
+        Me.btnLogin.TabIndex = 2
+        Me.btnLogin.Text = "Login"
+        Me.btnLogin.UseVisualStyleBackColor = True
+        '
+        'AdminLogin
+        '
+        Me.ClientSize = New System.Drawing.Size(400, 200)
+        Me.Controls.Add(Me.txtUsername)
+        Me.Controls.Add(Me.txtPassword)
+        Me.Controls.Add(Me.btnLogin)
+        Me.Name = "AdminLogin"
+        Me.Text = "Admin Login"
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+
+    Friend WithEvents txtUsername As TextBox
+    Friend WithEvents txtPassword As TextBox
+    Friend WithEvents btnLogin As Button
+End Class
